@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Import @tensorflow/tfjs-core -->
+<script src="https://unpkg.com/@tensorflow/tfjs-core@2.4.0/dist/tf-core.js"></script>
+<script src="https://unpkg.com/@tensorflow/tfjs-converter@2.4.0/dist/tf-converter.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/16/Stats.min.js"
+        integrity="sha512-by6gRzSfA6HGshqED4Jnc6n/jJ9ojBvjbEbCvsrLzErlIiWswh1qYfYnvSzZg8SmbqVCk/v0XwlpGzJxIDPILw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                        <script src="https://unpkg.com/@tensorflow/tfjs-backend-wasm@2.4.0/dist/tf-backend-wasm.js"></script>
+        <!--          
+        <script src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@2.4.0/dist/tf-backend-webgl.js"></script>
+
+   Import @tensorflow/tfjs-tflite -->
+</head>
+<body>
+<canvas id="canv" width="192px" height="192px"></canvas>
+<video width="192px" height="192px" id="vid"></video>
+<canvas id="im" width="192px" height="192px"></canvas>
+<script src="index.js"></script>
+</body>
+<style>
+#im{
+    display:none;
+}
+</style>
+</html>
